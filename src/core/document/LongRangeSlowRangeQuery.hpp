@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LONGRANGESLOWRANGEQUERY_HPP
+#define LUCENECPP20_LONGRANGESLOWRANGEQUERY_HPP
+
+
+class LongRangeSlowRangeQuery {
+
+};
+
+
+#endif //LUCENECPP20_LONGRANGESLOWRANGEQUERY_HPP

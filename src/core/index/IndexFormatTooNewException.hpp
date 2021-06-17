@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_INDEXFORMATTOONEWEXCEPTION_HPP
+#define LUCENECPP20_INDEXFORMATTOONEWEXCEPTION_HPP
+
+
+class IndexFormatTooNewException {
+
+};
+
+
+#endif //LUCENECPP20_INDEXFORMATTOONEWEXCEPTION_HPP

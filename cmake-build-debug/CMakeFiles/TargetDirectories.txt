@@ -1,0 +1,5 @@
+/Users/ervin/workspace/lucenecpp20/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ervin/workspace/lucenecpp20/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/CMakeFiles/rebuild_cache.dir
+/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/CMakeFiles/edit_cache.dir
+/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/CMakeFiles/lucenecpp20test.dir

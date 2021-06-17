@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\core\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucene++">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/liblucene++.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/src/core/util/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 lucene++"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucene++/fast">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/liblucene++.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/src/core/util/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 lucene++/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/ASCIIFoldingFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/ASCIIFoldingFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Analyzer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Analyzer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/BaseCharFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/BaseCharFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CachingTokenFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CachingTokenFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharArraySet.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharArraySet.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharReader.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharReader.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharStream.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharStream.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharTokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/CharTokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/ISOLatin1AccentFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/ISOLatin1AccentFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/KeywordAnalyzer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/KeywordAnalyzer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/KeywordTokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/KeywordTokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LengthFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LengthFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LetterTokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LetterTokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LowerCaseFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LowerCaseFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LowerCaseTokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/LowerCaseTokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/MappingCharFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/MappingCharFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/NormalizeCharMap.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/NormalizeCharMap.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/NumericTokenStream.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/NumericTokenStream.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PerFieldAnalyzerWrapper.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PerFieldAnalyzerWrapper.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PorterStemFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PorterStemFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PorterStemmer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/PorterStemmer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/SimpleAnalyzer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/SimpleAnalyzer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/StopAnalyzer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/StopAnalyzer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/StopFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/StopFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TeeSinkTokenFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TeeSinkTokenFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Token.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Token.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TokenFilter.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TokenFilter.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TokenStream.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/TokenStream.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Tokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/Tokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WhitespaceAnalyzer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WhitespaceAnalyzer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WhitespaceTokenizer.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WhitespaceTokenizer.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WordlistLoader.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/analysis/WordlistLoader.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AbstractAllTermDocs.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AbstractAllTermDocs.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AllTermDocs.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AllTermDocs.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedDeletes.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedDeletes.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Term.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Term.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/Attribute.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/Attribute.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/Synchronize.cpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/include/LuceneSignal.hpp">
+			<Option target="lucene++"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\core\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

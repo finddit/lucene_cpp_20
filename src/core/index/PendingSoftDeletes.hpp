@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_PENDINGSOFTDELETES_HPP
+#define LUCENECPP20_PENDINGSOFTDELETES_HPP
+
+
+class PendingSoftDeletes {
+
+};
+
+
+#endif //LUCENECPP20_PENDINGSOFTDELETES_HPP

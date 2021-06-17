@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_SLOWCODECREADERWRAPPER_HPP
+#define LUCENECPP20_SLOWCODECREADERWRAPPER_HPP
+
+
+class SlowCodecReaderWrapper {
+
+};
+
+
+#endif //LUCENECPP20_SLOWCODECREADERWRAPPER_HPP

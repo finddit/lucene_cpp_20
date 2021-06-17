@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LATLONPOINTSORTFIELD_HPP
+#define LUCENECPP20_LATLONPOINTSORTFIELD_HPP
+
+
+class LatLonPointSortField {
+
+};
+
+
+#endif //LUCENECPP20_LATLONPOINTSORTFIELD_HPP

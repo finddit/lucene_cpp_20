@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_XYDOCVALUESFIELD_HPP
+#define LUCENECPP20_XYDOCVALUESFIELD_HPP
+
+
+class XYDocValuesField {
+
+};
+
+
+#endif //LUCENECPP20_XYDOCVALUESFIELD_HPP

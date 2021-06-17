@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_PARALLELPOSTINGSARRAY_HPP
+#define LUCENECPP20_PARALLELPOSTINGSARRAY_HPP
+
+
+class ParallelPostingsArray {
+
+};
+
+
+#endif //LUCENECPP20_PARALLELPOSTINGSARRAY_HPP

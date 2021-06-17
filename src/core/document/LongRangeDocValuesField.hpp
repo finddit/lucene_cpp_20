@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LONGRANGEDOCVALUESFIELD_HPP
+#define LUCENECPP20_LONGRANGEDOCVALUESFIELD_HPP
+
+
+class LongRangeDocValuesField {
+
+};
+
+
+#endif //LUCENECPP20_LONGRANGEDOCVALUESFIELD_HPP

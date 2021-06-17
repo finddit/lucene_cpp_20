@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_SORTINGTERMVECTORSCONSUMER_HPP
+#define LUCENECPP20_SORTINGTERMVECTORSCONSUMER_HPP
+
+
+class SortingTermVectorsConsumer {
+
+};
+
+
+#endif //LUCENECPP20_SORTINGTERMVECTORSCONSUMER_HPP

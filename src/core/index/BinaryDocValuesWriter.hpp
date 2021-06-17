@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_BINARYDOCVALUESWRITER_HPP
+#define LUCENECPP20_BINARYDOCVALUESWRITER_HPP
+
+
+class BinaryDocValuesWriter {
+
+};
+
+
+#endif //LUCENECPP20_BINARYDOCVALUESWRITER_HPP

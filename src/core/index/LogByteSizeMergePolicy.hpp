@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LOGBYTESIZEMERGEPOLICY_HPP
+#define LUCENECPP20_LOGBYTESIZEMERGEPOLICY_HPP
+
+
+class LogByteSizeMergePolicy {
+
+};
+
+
+#endif //LUCENECPP20_LOGBYTESIZEMERGEPOLICY_HPP

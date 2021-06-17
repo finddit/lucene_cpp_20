@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_MERGEREADERWRAPPER_HPP
+#define LUCENECPP20_MERGEREADERWRAPPER_HPP
+
+
+class MergeReaderWrapper {
+
+};
+
+
+#endif //LUCENECPP20_MERGEREADERWRAPPER_HPP

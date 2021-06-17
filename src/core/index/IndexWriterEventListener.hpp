@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_INDEXWRITEREVENTLISTENER_HPP
+#define LUCENECPP20_INDEXWRITEREVENTLISTENER_HPP
+
+
+class IndexWriterEventListener {
+
+};
+
+
+#endif //LUCENECPP20_INDEXWRITEREVENTLISTENER_HPP

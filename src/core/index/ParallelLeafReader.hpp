@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_PARALLELLEAFREADER_HPP
+#define LUCENECPP20_PARALLELLEAFREADER_HPP
+
+
+class ParallelLeafReader {
+
+};
+
+
+#endif //LUCENECPP20_PARALLELLEAFREADER_HPP

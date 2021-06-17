@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_UPGRADEINDEXMERGEPOLICY_HPP
+#define LUCENECPP20_UPGRADEINDEXMERGEPOLICY_HPP
+
+
+class UpgradeIndexMergePolicy {
+
+};
+
+
+#endif //LUCENECPP20_UPGRADEINDEXMERGEPOLICY_HPP

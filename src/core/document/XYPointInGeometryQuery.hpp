@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_XYPOINTINGEOMETRYQUERY_HPP
+#define LUCENECPP20_XYPOINTINGEOMETRYQUERY_HPP
+
+
+class XYPointInGeometryQuery {
+
+};
+
+
+#endif //LUCENECPP20_XYPOINTINGEOMETRYQUERY_HPP

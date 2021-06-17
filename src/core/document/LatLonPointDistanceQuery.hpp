@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LATLONPOINTDISTANCEQUERY_HPP
+#define LUCENECPP20_LATLONPOINTDISTANCEQUERY_HPP
+
+
+class LatLonPointDistanceQuery {
+
+};
+
+
+#endif //LUCENECPP20_LATLONPOINTDISTANCEQUERY_HPP

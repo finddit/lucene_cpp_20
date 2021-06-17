@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_DOCUMENTSWRITERPERTHREAD_HPP
+#define LUCENECPP20_DOCUMENTSWRITERPERTHREAD_HPP
+
+
+class DocumentsWriterPerThread {
+
+};
+
+
+#endif //LUCENECPP20_DOCUMENTSWRITERPERTHREAD_HPP

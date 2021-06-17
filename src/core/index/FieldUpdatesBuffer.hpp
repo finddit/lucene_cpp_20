@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_FIELDUPDATESBUFFER_HPP
+#define LUCENECPP20_FIELDUPDATESBUFFER_HPP
+
+
+class FieldUpdatesBuffer {
+
+};
+
+
+#endif //LUCENECPP20_FIELDUPDATESBUFFER_HPP

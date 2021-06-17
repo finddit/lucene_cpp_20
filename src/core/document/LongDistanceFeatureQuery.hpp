@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LONGDISTANCEFEATUREQUERY_HPP
+#define LUCENECPP20_LONGDISTANCEFEATUREQUERY_HPP
+
+
+class LongDistanceFeatureQuery {
+
+};
+
+
+#endif //LUCENECPP20_LONGDISTANCEFEATUREQUERY_HPP

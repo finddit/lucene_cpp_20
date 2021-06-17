@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_INDEXREADERCONTEXT_HPP
+#define LUCENECPP20_INDEXREADERCONTEXT_HPP
+
+
+class IndexReaderContext {
+
+};
+
+
+#endif //LUCENECPP20_INDEXREADERCONTEXT_HPP

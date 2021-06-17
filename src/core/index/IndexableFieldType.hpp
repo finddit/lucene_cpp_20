@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_INDEXABLEFIELDTYPE_HPP
+#define LUCENECPP20_INDEXABLEFIELDTYPE_HPP
+
+
+class IndexableFieldType {
+
+};
+
+
+#endif //LUCENECPP20_INDEXABLEFIELDTYPE_HPP

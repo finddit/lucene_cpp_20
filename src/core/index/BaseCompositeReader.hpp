@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_BASECOMPOSITEREADER_HPP
+#define LUCENECPP20_BASECOMPOSITEREADER_HPP
+
+
+class BaseCompositeReader {
+
+};
+
+
+#endif //LUCENECPP20_BASECOMPOSITEREADER_HPP

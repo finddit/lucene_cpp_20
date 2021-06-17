@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_FREQPROXTERMSWRITER_HPP
+#define LUCENECPP20_FREQPROXTERMSWRITER_HPP
+
+
+class FreqProxTermsWriter {
+
+};
+
+
+#endif //LUCENECPP20_FREQPROXTERMSWRITER_HPP

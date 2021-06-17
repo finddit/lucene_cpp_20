@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_FLOATDOCVALUESFIELD_HPP
+#define LUCENECPP20_FLOATDOCVALUESFIELD_HPP
+
+
+class FloatDocValuesField {
+
+};
+
+
+#endif //LUCENECPP20_FLOATDOCVALUESFIELD_HPP

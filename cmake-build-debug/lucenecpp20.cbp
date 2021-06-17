@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lucenecpp20"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucenecpp20test">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/lucenecpp20test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 lucenecpp20test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucenecpp20test/fast">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/lucenecpp20test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 lucenecpp20test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeFieldRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/BinaryRangeFieldRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DateTools.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DateTools.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/Document.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/Document.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DocumentStoredFieldVisitor.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DocumentStoredFieldVisitor.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoublePoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoublePoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRange.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRange.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRangeDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRangeDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRangeSlowRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/DoubleRangeSlowRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureDoubleValuesSource.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureDoubleValuesSource.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureSortField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FeatureSortField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/Field.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/Field.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FieldType.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FieldType.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRange.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRange.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRangeDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRangeDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRangeSlowRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/FloatRangeSlowRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/InetAddressPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/InetAddressPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/InetAddressRange.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/InetAddressRange.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRange.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRange.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRangeDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRangeDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRangeSlowRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/IntRangeSlowRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesBoxQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesBoxQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonDocValuesQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceComparator.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceComparator.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceFeatureQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceFeatureQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointDistanceQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointSortField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonPointSortField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShape.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShape.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShapeBoundingBoxQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShapeBoundingBoxQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShapeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LatLonShapeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongDistanceFeatureQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongDistanceFeatureQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongPoint.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongPoint.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRange.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRange.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRangeDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRangeDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRangeSlowRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/LongRangeSlowRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/NumericDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/NumericDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/RangeFieldQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/RangeFieldQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/ShapeField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/ShapeField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedNumericDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedNumericDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedNumericDocValuesRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedNumericDocValuesRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedSetDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedSetDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedSetDocValuesRangeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SortedSetDocValuesRangeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SpatialQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/SpatialQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/StoredField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/StoredField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/StringField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/StringField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/TextField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/TextField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/VectorField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/VectorField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYDocValuesField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYDocValuesField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYDocValuesPointInGeometryQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYDocValuesPointInGeometryQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointDistanceComparator.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointDistanceComparator.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointInGeometryQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointInGeometryQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointSortField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYPointSortField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYShape.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYShape.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYShapeQuery.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/document/XYShapeQuery.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AutomatonTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/AutomatonTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BaseCompositeReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BaseCompositeReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BaseTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BaseTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValuesFieldUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValuesFieldUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BinaryDocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BitsSlice.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BitsSlice.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedUpdatesStream.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/BufferedUpdatesStream.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ByteSliceReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ByteSliceReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ByteSliceWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ByteSliceWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CheckIndex.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CheckIndex.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CodecReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CodecReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CompositeReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CompositeReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CompositeReaderContext.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CompositeReaderContext.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ConcurrentMergeScheduler.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ConcurrentMergeScheduler.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CorruptIndexException.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/CorruptIndexException.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DirectoryReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DirectoryReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocIDMerger.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocIDMerger.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesFieldUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesFieldUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesIterator.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesIterator.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesLeafReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesLeafReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesType.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesType.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesUpdate.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesUpdate.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocsWithFieldSet.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocsWithFieldSet.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterDeleteQueue.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterDeleteQueue.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterFlushControl.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterFlushControl.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterFlushQueue.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterFlushQueue.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterPerThread.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterPerThread.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterPerThreadPool.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterPerThreadPool.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterStallControl.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/DocumentsWriterStallControl.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/EmptyDocValuesProducer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/EmptyDocValuesProducer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ExitableDirectoryReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ExitableDirectoryReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInfo.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInfo.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInfos.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInfos.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInvertState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldInvertState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldTermIterator.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldTermIterator.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldUpdatesBuffer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FieldUpdatesBuffer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Fields.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Fields.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterBinaryDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterBinaryDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterCodecReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterCodecReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterDirectoryReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterDirectoryReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterLeafReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterLeafReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterNumericDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterNumericDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedNumericDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedNumericDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedSetDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilterSortedSetDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilteredTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FilteredTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FlushByRamOrCountsPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FlushByRamOrCountsPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FlushPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FlushPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxFields.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxFields.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxTermsWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxTermsWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxTermsWriterPerField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FreqProxTermsWriterPerField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FrozenBufferedUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/FrozenBufferedUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Impact.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Impact.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Impacts.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Impacts.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ImpactsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ImpactsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ImpactsSource.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ImpactsSource.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexCommit.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexCommit.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexDeletionPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexDeletionPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFileDeleter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFileDeleter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFileNames.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFileNames.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFormatTooNewException.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFormatTooNewException.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFormatTooOldException.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexFormatTooOldException.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexNotFoundException.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexNotFoundException.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexOptions.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexOptions.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexReaderContext.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexReaderContext.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexSorter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexSorter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexUpgrader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexUpgrader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriterConfig.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriterConfig.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriterEventListener.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexWriterEventListener.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexableField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexableField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexableFieldType.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexableFieldType.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexingChain.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/IndexingChain.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/KeepOnlyLastCommitDeletionPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/KeepOnlyLastCommitDeletionPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/KnnGraphValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/KnnGraphValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafMetaData.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafMetaData.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafReaderContext.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LeafReaderContext.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LiveIndexWriterConfig.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LiveIndexWriterConfig.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogByteSizeMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogByteSizeMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogDocMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogDocMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/LogMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MappedMultiFields.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MappedMultiFields.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MappingMultiPostingsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MappingMultiPostingsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeRateLimiter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeRateLimiter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeReaderWrapper.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeReaderWrapper.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeScheduler.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeScheduler.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeTrigger.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MergeTrigger.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiBits.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiBits.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiFields.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiFields.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiLeafReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiLeafReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiPostingsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiPostingsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiSorter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiSorter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiTerms.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiTerms.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/MultiTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoDeletionPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoDeletionPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoMergeScheduler.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NoMergeScheduler.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NormValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NormValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValuesFieldUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValuesFieldUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/NumericDocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OneMergeWrappingMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OneMergeWrappingMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OrdTermState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OrdTermState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OrdinalMap.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/OrdinalMap.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelCompositeReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelCompositeReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelLeafReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelLeafReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelPostingsArray.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ParallelPostingsArray.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PendingDeletes.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PendingDeletes.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PendingSoftDeletes.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PendingSoftDeletes.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PersistentSnapshotDeletionPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PersistentSnapshotDeletionPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PointValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PointValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PointValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PointValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PostingsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PostingsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PrefixCodedTerms.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/PrefixCodedTerms.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/QueryTimeout.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/QueryTimeout.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/QueryTimeoutImpl.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/QueryTimeoutImpl.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/RandomAccessVectorValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/RandomAccessVectorValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/RandomAccessVectorValuesProducer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/RandomAccessVectorValuesProducer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderManager.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderManager.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderPool.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderPool.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderSlice.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderSlice.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderUtil.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReaderUtil.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReadersAndUpdates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/ReadersAndUpdates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentCommitInfo.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentCommitInfo.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentCoreReaders.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentCoreReaders.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentDocValuesProducer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentDocValuesProducer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentInfo.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentInfo.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentInfos.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentInfos.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentMerger.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentMerger.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentReadState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentReadState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentWriteState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SegmentWriteState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SerialMergeScheduler.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SerialMergeScheduler.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SimpleMergedSegmentWarmer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SimpleMergedSegmentWarmer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingleTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingleTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingletonSortedNumericDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingletonSortedNumericDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingletonSortedSetDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SingletonSortedSetDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SlowCodecReaderWrapper.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SlowCodecReaderWrapper.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SlowImpactsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SlowImpactsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SnapshotDeletionPolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SnapshotDeletionPolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SoftDeletesDirectoryReaderWrapper.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SoftDeletesDirectoryReaderWrapper.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SoftDeletesRetentionMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SoftDeletesRetentionMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortFieldProvider.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortFieldProvider.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValuesTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValuesTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedDocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedNumericDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedNumericDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedNumericDocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedNumericDocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValuesTermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValuesTermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortedSetDocValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Sorter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Sorter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingCodecReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingCodecReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingStoredFieldsConsumer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingStoredFieldsConsumer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingTermVectorsConsumer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/SortingTermVectorsConsumer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StandardDirectoryReader.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StandardDirectoryReader.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StoredFieldVisitor.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StoredFieldVisitor.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StoredFieldsConsumer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/StoredFieldsConsumer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Term.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Term.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermState.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermState.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermStates.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermStates.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermVectorsConsumer.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermVectorsConsumer.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermVectorsConsumerPerField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermVectorsConsumerPerField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Terms.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/Terms.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsEnum.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsEnum.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsHash.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsHash.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsHashPerField.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TermsHashPerField.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TieredMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TieredMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TrackingTmpOutputDirectoryWrapper.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TrackingTmpOutputDirectoryWrapper.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TwoPhaseCommit.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TwoPhaseCommit.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TwoPhaseCommitTool.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/TwoPhaseCommitTool.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/UpgradeIndexMergePolicy.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/UpgradeIndexMergePolicy.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/VectorValues.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/VectorValues.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/VectorValuesWriter.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/index/VectorValuesWriter.hpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/test/main.cpp">
+			<Option target="lucenecpp20test"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

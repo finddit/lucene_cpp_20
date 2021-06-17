@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_DOCUMENTSWRITERFLUSHQUEUE_HPP
+#define LUCENECPP20_DOCUMENTSWRITERFLUSHQUEUE_HPP
+
+
+class DocumentsWriterFlushQueue {
+
+};
+
+
+#endif //LUCENECPP20_DOCUMENTSWRITERFLUSHQUEUE_HPP

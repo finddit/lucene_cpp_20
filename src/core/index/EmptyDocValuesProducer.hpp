@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_EMPTYDOCVALUESPRODUCER_HPP
+#define LUCENECPP20_EMPTYDOCVALUESPRODUCER_HPP
+
+
+class EmptyDocValuesProducer {
+
+};
+
+
+#endif //LUCENECPP20_EMPTYDOCVALUESPRODUCER_HPP

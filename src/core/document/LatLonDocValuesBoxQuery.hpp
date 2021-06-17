@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LATLONDOCVALUESBOXQUERY_HPP
+#define LUCENECPP20_LATLONDOCVALUESBOXQUERY_HPP
+
+
+class LatLonDocValuesBoxQuery {
+
+};
+
+
+#endif //LUCENECPP20_LATLONDOCVALUESBOXQUERY_HPP

@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_STANDARDDIRECTORYREADER_HPP
+#define LUCENECPP20_STANDARDDIRECTORYREADER_HPP
+
+
+class StandardDirectoryReader {
+
+};
+
+
+#endif //LUCENECPP20_STANDARDDIRECTORYREADER_HPP

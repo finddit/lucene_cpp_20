@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_FILTERDIRECTORYREADER_HPP
+#define LUCENECPP20_FILTERDIRECTORYREADER_HPP
+
+
+class FilterDirectoryReader {
+
+};
+
+
+#endif //LUCENECPP20_FILTERDIRECTORYREADER_HPP

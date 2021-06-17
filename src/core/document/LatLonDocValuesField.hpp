@@ -1,0 +1,14 @@
+//
+// Created by Ervin Bosenbacher on 17/06/2021.
+//
+
+#ifndef LUCENECPP20_LATLONDOCVALUESFIELD_HPP
+#define LUCENECPP20_LATLONDOCVALUESFIELD_HPP
+
+
+class LatLonDocValuesField {
+
+};
+
+
+#endif //LUCENECPP20_LATLONDOCVALUESFIELD_HPP

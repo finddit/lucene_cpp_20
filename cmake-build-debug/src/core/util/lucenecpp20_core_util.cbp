@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lucenecpp20_core_util"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\core\;CMake Files\src\core\util\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucenecpp20_core_util">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/liblucenecpp20_core_util.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/core"/>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/src/core/util/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 lucenecpp20_core_util"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lucenecpp20_core_util/fast">
+				<Option output="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/liblucenecpp20_core_util.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/core"/>
+					<Add directory="/Users/ervin/workspace/lucenecpp20/src/core/util/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 lucenecpp20_core_util/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/ervin/workspace/lucenecpp20/cmake-build-debug/src/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/Attribute.cpp">
+			<Option target="lucenecpp20_core_util"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/Attribute.hpp">
+			<Option target="lucenecpp20_core_util"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/include/Lucene.hpp">
+			<Option target="lucenecpp20_core_util"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/include/Synchronize.cpp">
+			<Option target="lucenecpp20_core_util"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/include/Synchronize.hpp">
+			<Option target="lucenecpp20_core_util"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\core\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/core/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\core\util\"/>
+		</Unit>
+		<Unit filename="/Users/ervin/workspace/lucenecpp20/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
